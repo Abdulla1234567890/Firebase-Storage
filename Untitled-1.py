@@ -20,7 +20,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
 CHUNK = 1024
-RECORD_SECONDS = 10
+RECORD_SECONDS = int(input("Enter recording duration in seconds: "))
 WAVE_OUTPUT_FILENAME = "audio.wav"
 
 # Initialize PyAudio
